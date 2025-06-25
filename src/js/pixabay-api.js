@@ -6,7 +6,7 @@ export default function getImagesByQuery(query) {
   return axios
     .get('https://pixabay.com/api/', {
       params: {
-        key: '51039483-d1ef6922b01cd3fd853d7df89',
+        key: '50844575-9e292bfe2a1d78c665340f91a',
         q: query,
         image_type: 'photo',
         orientation: 'horizontal',
